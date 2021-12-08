@@ -19,7 +19,7 @@ namespace Deac_Alexandra_Lab8.Pages.Publishers
             _context = context;
         }
 
-        public IList<Publisher> Publisher { get;set; }
+        public IList<Publisher> Publisher { get; set; }
 
         public async Task OnGetAsync()
         {

@@ -11,7 +11,7 @@ using Deac_Alexandra_Lab8.Models;
 
 namespace Deac_Alexandra_Lab8.Pages.Publishers
 {
-    public class EditModel : PageModel
+    public class EditModel : BookCategoriesPageModel
     {
         private readonly Deac_Alexandra_Lab8.Data.Deac_Alexandra_Lab8Context _context;
 
